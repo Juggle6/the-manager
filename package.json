@@ -1,0 +1,19 @@
+{
+  "name": "the-manager",
+  "version": "1.0.0",
+  "description": "A versatile Discord bot for managing a wide variety of medium-to-large sized Discord community servers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juggle6/the-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juggle6/the-manager/issues"
+  },
+  "homepage": "https://github.com/juggle6/the-manager#readme"
+}
