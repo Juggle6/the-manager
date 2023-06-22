@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/juggle6/the-manager/issues"
   },
-  "homepage": "https://github.com/juggle6/the-manager#readme"
+  "homepage": "https://github.com/juggle6/the-manager#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
+  }
 }
