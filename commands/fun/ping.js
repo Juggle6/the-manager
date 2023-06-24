@@ -5,6 +5,7 @@ module.exports = {
     .setName("ping")
     .setDescription("Replies with Pong!"),
   async execute(interaction) {
-    await interaction.reply("Pong!");
+    const pingMessage = await interaction.reply("Pinging... :thinking:");
+    interaction.editReply(`Pong! ${pingMessage.createdTimestamp - interaction.createdTimestamp}ms`);
   },
 };
